@@ -1,0 +1,98 @@
+body {
+    font-family: "Lucida Grande";
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+hgroup h2 {
+    color: #999;
+    font-weight: normal;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section.first {
+    padding-top: 40px;
+}
+
+th {
+    text-align: center;
+    color: #666;
+}
+
+.icon {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ok {
+    background-color: #F7FCEE;
+}
+
+.not-ok {
+    background-color: #FCEDF0;
+}
+
+.icon.ok {
+    background-image: url('icons/dialog-apply.png');
+}
+
+.icon.not-ok {
+    background-image: url('icons/dialog-cancel.png');
+}
+
+.icon * {
+    display: none;
+}
+
+.fade-background {
+    background: #F7FCEE; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7FCEE', endColorstr='#FFFFFF'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#F7FCEE), to(#FFFFFF)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #F7FCEE,  #FFFFFF); /* for firefox 3.6+ */
+}
+
+.fade-background-reverse {
+    background: #F7FCEE; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F7FCEE'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F7FCEE)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F7FCEE); /* for firefox 3.6+ */
+}
+
+.white-background {
+    background: white;
+}
+
+table {
+    width: 100%;
+    border: hidden;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+}
+
+th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.dimmed {
+    color: #999;
+}
