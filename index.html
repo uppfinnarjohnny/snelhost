@@ -25,17 +25,20 @@ layout: -
                     <th scope="col">Miljömärkt el</th>
                     <th scope="col">Klimatkompenserar</th>
                     <th scope="col">Miljövänlig<br/> brandbekämpning</th>
+                    <th scope="col">Miljövänlig<br/> kylning</th>
                 </tr>
             </thead>
             <tbody>
                 {% for post in site.posts %}
                 <tr>
-                    <th scope="row"><a href="{{post.url}}"><img src="{{post.logo}}" alt="{{post.title}}"/></a></th>
+                    <th scope="row"><a href="{{post.link}}"><img src="{{post.logo}}" alt="{{post.title}}"/></a></th>
                     {% assign cell = post.green_electricity %}
                     {% include boolean_cell.html %}
                     {% assign cell = post.climate_compensating %}
                     {% include boolean_cell.html %}
                     {% assign cell = post.green_fire %}
+                    {% include boolean_cell.html %}
+                    {% assign cell = post.green_cooling %}
                     {% include boolean_cell.html %}
                 </tr>
                 {% endfor %}
@@ -47,7 +50,7 @@ layout: -
 <div class="container_12 section">
     <div class="grid_4">
         <h2>Hjälp till! <span class="dimmed">Gör klad!</span></h2>
-        <p>Är det något som inte stämmer? Är det något som saknas? Hör av dig till <a href="mailto:info@snelhost.se">info@snelhost.se</a>, <a href="http://twitter.com/snelhost">@snelhost</a> på Twitter eller gör en fork/issue på <a href="https://github.com/hemligabyran/snelhost">GitHub</a></p>
+        <p>Är det något som inte stämmer? Är det något som saknas? Hör av dig till <a href="mailto:info@snelhost.se">info@snelhost.se</a>, <a href="http://twitter.com/snelhost">@snelhost</a> på Twitter eller gör en fork/issue på <a href="https://github.com/hemligabyran/snelhost">GitHub</a>.</p>
     </div>
     <div class="grid_4">
         <h2>Vem gör det här?</h2>

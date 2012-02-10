@@ -1,6 +1,6 @@
 ---
 title: Binero
-url: http://binero.se
+link: http://binero.se
 logo: /logos/binero.png
 green_electricity: yes
 climate_compensating:

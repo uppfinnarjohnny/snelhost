@@ -1,6 +1,6 @@
 ---
 title: GleSYS
-url: http://glesys.se
+link: http://glesys.se
 logo: /logos/glesys.png
 green_electricity: yes
 green_fire: yes

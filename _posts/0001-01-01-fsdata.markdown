@@ -1,6 +1,6 @@
 ---
 title: FSdata
-url: http://fsdata.se
+link: http://fsdata.se
 logo: /logos/fsdata.png
 green_electricity: yes
 climate_compensating: yes
