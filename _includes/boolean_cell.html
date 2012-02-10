@@ -1,0 +1,8 @@
+{% case cell %}
+{% when true %}
+    <td class="icon ok"><span>Ja</span></td>
+{% when false %}
+    <td class="icon not-ok"><span>Nej</span></td>
+{% else %}
+    <td class="unknown"><span>-</span></td>
+{% endcase %}

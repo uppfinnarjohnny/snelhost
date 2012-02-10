@@ -1,6 +1,3 @@
----
-layout: -
----
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -28,17 +25,64 @@ layout: -
                 </tr>
             </thead>
             <tbody>
-                {% for post in site.posts %}
+                
                 <tr>
-                    <th scope="row"><a href="{{post.url}}"><img src="{{post.logo}}" alt="{{post.title}}"/></a></th>
-                    {% assign cell = post.green_electricity %}
-                    {% include boolean_cell.html %}
-                    {% assign cell = post.climate_compensating %}
-                    {% include boolean_cell.html %}
-                    {% assign cell = post.green_fire %}
-                    {% include boolean_cell.html %}
+                    <th scope="row"><a href="/2001/01/01/glesys.html"><img src="/logos/glesys.png" alt="GleSYS"/></a></th>
+                    
+                    
+    <td class="icon ok"><span>Ja</span></td>
+
+
+                    
+                    
+    <td class="unknown"><span>-</span></td>
+
+
+                    
+                    
+    <td class="icon ok"><span>Ja</span></td>
+
+
                 </tr>
-                {% endfor %}
+                
+                <tr>
+                    <th scope="row"><a href="/2001/01/01/fsdata.html"><img src="/logos/fsdata.png" alt="FSdata"/></a></th>
+                    
+                    
+    <td class="icon ok"><span>Ja</span></td>
+
+
+                    
+                    
+    <td class="icon ok"><span>Ja</span></td>
+
+
+                    
+                    
+    <td class="unknown"><span>-</span></td>
+
+
+                </tr>
+                
+                <tr>
+                    <th scope="row"><a href="/2001/01/01/binero.html"><img src="/logos/binero.png" alt="Binero"/></a></th>
+                    
+                    
+    <td class="icon ok"><span>Ja</span></td>
+
+
+                    
+                    
+    <td class="unknown"><span>-</span></td>
+
+
+                    
+                    
+    <td class="unknown"><span>-</span></td>
+
+
+                </tr>
+                
             </tbody>
         </table>
     </div>
