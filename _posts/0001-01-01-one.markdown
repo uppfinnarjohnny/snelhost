@@ -1,0 +1,5 @@
+---
+title: One.com
+link: http://one.com
+logo: /logos/one.png
+---
