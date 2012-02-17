@@ -2,4 +2,5 @@
 title: Loopia
 link: http://loopia.se
 logo: /logos/loopia.png
+green_electricity: yes
 ---
