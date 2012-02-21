@@ -1,0 +1,9 @@
+---
+title: Ipeer
+link: http://ipeer.se
+logo: /logos/ipeer.png
+green_electricity: yes
+climate_compensating: yes
+green_fire: yes
+green_cooling: yes
+---
